@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Онлайн магазин</title>
+{% endblock %}
+
+{% block body%}
+      
+<div class="container"> 
+ <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    {% for e in data %}     <!-- e == el(element) -->
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="text-muted fw-dark">{{ e.title }}</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="text-muted fw-dark">{{ e.price }}<small class="text-muted fw-dark"></small></h1>
+          <ul class="text-muted fw-dark">
+            <li>Надійна якість товару</li>
+            <li>Можливість повернути назад</li>
+            <li>Щось ще</li>
+            <li>24/7 з клієнтом</li>
+          </ul>
+          <a href="/buy/{{ e.id }}" class="w-100 btn btn-lg btn-outline-success">Придбати товар</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% endblock %}
+

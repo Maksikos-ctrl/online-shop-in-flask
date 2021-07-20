@@ -1,0 +1,59 @@
+/*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+/*.repository
+{  
+    margin-top: -15px;
+    background: url(../img/goods.png);
+    background-size: 65%;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 100px 0; 
+}*/
+
+.vmestilishche {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.svetyash-chiysya {
+    color: #FB4264;
+    font-size: 32px;
+    line-height: 32px;
+    text-shadow: 0 0 3vw #F40A35;
+}
+.svetyash-chiysya {
+    animation: svetyash-chiysya 1.2s ease infinite;
+    -moz-animation: svetyash-chiysya 1.2s ease infinite;
+    -webkit-animation: svetyash-chiysya 1.2s ease infinite;
+}
+@keyframes svetyash-chiysya {
+ 0%,
+100% 
+{
+    text-shadow: 0 0 1vw #f7130d, 0 0 3vw #f7130d, 0 0 10vw #f7130d, 0 0 10vw #f7130d, 0 0 .4vw #f7c81b, .5vw .5vw .1vw #8c7216;
+    color: #f7c81b;
+}
+50%
+{
+    text-shadow: 0 0 .5vw #821411, 0 0 1.5vw #821411, 0 0 5vw #821411, 0 0 5vw #821411, 0 0 .2vw #821411, .5vw .5vw .1vw #463809;
+    color: #8c7216;
+}
+}
+.text-white:hover 
+{
+    background-color: rgb(155, 9, 9);
+}   

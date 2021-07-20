@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Про магазин</title>
+{% endblock %}
+
+{% block body%}
+<div class="container">
+    <main role="main" class="inner cover">
+        <div class="svetyash-chiysya">Maksikos-ctrl</div> <br>
+        <p class="lead">Это мой НЕДОМАГАЗИН и ребята которые мне помогали его делать,то бишь моя тима</p>
+        <p class="lead">
+          <a href="https://github.com/Maksikos-ctrl/online_shop_in_flask" class="btn btn-lg btn-primary">Перейти на гітхаб</a>
+        </p>
+      </main><br><br>
+      
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="/static/img/turbolaft.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Turbolaft</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-primary" href="https://github.com/turbolaft" role="button">Перейти на гітхаб</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="/static/img/deniska.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>arduinka55055</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-primary" href="https://github.com/arduinka55055" role="button">Перейти на гітхаб</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="/static/img/illia.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>ilyab205</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-primary" href="https://github.com/ilyab205" role="button">Перейти на гітхаб</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+    <style>
+       .vmestilishche {
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            }
+        .svetyash-chiysya {
+            color: #d4cbcc;
+            font-size: 32px;
+            line-height: 32px;
+            text-shadow: 0 0 3vw #131010;
+            }
+        .svetyash-chiysya {
+            animation: svetyash-chiysya 1.2s ease infinite;
+            -moz-animation: svetyash-chiysya 1.2s ease infinite;
+            -webkit-animation: svetyash-chiysya 1.2s ease infinite;
+            }
+         @keyframes svetyash-chiysya {
+            0%,
+            100% {
+            text-shadow: 0 0 1vw #f7130d, 0 0 3vw #f7130d, 0 0 10vw #f7130d, 0 0 10vw #f7130d, 0 0 .4vw #f7c81b, .5vw .5vw .1vw #8c7216;
+            color: #f7c81b;
+            }
+            50% {
+            text-shadow: 0 0 .5vw #821411, 0 0 1.5vw #821411, 0 0 5vw #821411, 0 0 5vw #821411, 0 0 .2vw #821411, .5vw .5vw .1vw #463809;
+            color: #8c7216;
+            }
+            }
+    </style>
+</div>
+{% endblock %}
+
+
+
