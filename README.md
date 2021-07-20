@@ -25,7 +25,12 @@ BD |  Tables | Notes
 ----------------------------------
 
 ## How it looks like?
-![Знімок екрана (123)](https://user-images.githubusercontent.com/69985852/126279446-842c703e-89c0-414a-8253-c515fd9d80d7.png)
+![Знімок екрана (137)](https://user-images.githubusercontent.com/69985852/126279643-0f3e33cc-b49e-476f-8fce-4a4007e25c10.png)
+-----------------------------------------------------------------------------------------------------------------------------
 
+
+# Link on Heroku
+
+[ONLINE-SHOP](https://maksikos-ctrl-online-shop.herokuapp.com)
 
 
